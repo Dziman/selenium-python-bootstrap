@@ -61,3 +61,23 @@
 1. Download and start IDE (VS Code) https://code.visualstudio.com
 
 1. Install IDE extensions: python, Markdown All in one
+
+## Run test
+
+1. Run all tests
+
+    ```zsh
+    pytest
+    ```
+
+1. Run tests in file
+
+    ```zsh
+    pytest <file name>
+    ```
+
+1. Run tests and generate report
+
+    ```zsh
+    pytest --html=tests_report.html
+    ```
