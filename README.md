@@ -17,17 +17,17 @@
     eval "$(pyenv init -)"
     ```
 
-1. Install required version (3.9.9) of python using `pyenv`
+1. Install required version (3.10.7) of python using `pyenv`
 
     ```zsh
-    pyenv install 3.9.9
+    pyenv install 3.10.7
     ```
 
 1. Use installed version of python:
 
     ```zsh
-    pyenv global 3.9.9 # To set version globally
-    pyenv local 3.9.9 # To set version locally aka current directory
+    pyenv global 3.10.7 # To set version globally
+    pyenv local 3.10.7 # To set version locally aka current directory
     ```
 
 ## Other required tools
